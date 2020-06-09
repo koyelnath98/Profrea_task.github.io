@@ -1,0 +1,175 @@
+*{
+    margin: 4px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,body{
+    font-family: Tahoma;
+    padding:50px;
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+
+}
+
+
+.clearfix {zoom: 1}
+
+
+
+
+
+.boxed{
+    margin: 1px;
+  border: 2px solid green ;
+
+  
+}
+
+#boxed2{
+
+  margin:5px;
+  border: 2px solid green ;
+  width: 1100px;
+  height: 760px;
+    background:#f5f5f0;
+}
+
+#boxo{
+
+  margin:5px;
+  border: 2px solid green ;
+  width: 1100px;
+    background:#f5f5f0;
+
+}
+
+
+#boox{
+   
+   margin: 2px;
+  border:2px solid green;
+  background: green;
+  height: 60px;
+  width: 1140px;
+   
+  
+}
+
+
+
+.button{
+  position:relative;
+  float:right;
+
+  background-color: green;
+  border-radius: 8px;
+  color: white;
+  padding: 15px 30px;
+  text-align: center;
+
+  display: inline-block;
+  font-size: 16px;
+  cursor: hand;
+}
+
+
+
+.leftn{
+   position: absolute;
+    top:105px;
+    left:105px; 
+    text-align: center;
+    
+}
+.rightn{
+   position: absolute;
+    top:100px; 
+    left:1175px;
+    text-align: center;
+    
+}
+
+
+
+.btn2 { 
+  border: none;
+  cursor: pointer; 
+  position:absolute;
+  left:1090px; 
+  float: centre;
+  background-color: inherit;
+  color: white;
+  padding: 5px 5px;
+  text-align: right;
+  
+  display: inline-block;
+  font-size: 20px;
+
+
+}
+
+
+
+
+.midl{
+   position: absolute;
+    top:105px;
+    left:480px; 
+    text-align: center;
+
+    
+}
+
+#outer
+{
+    width:100%;
+    text-align: center;
+}
+.inner
+{
+    display: inline-block;
+}
+
+form{
+   margin: 2em;
+}
+
+td{
+  color: black;
+  font-weight: 500;
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: green;
+  color: white;
+}
+#Feedback th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #5cb5e1;
+  color: white;
+}
+#Menu th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #5cb5e1;
+  color: white;
+}
+#Users th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #5cb5e1;
+  color: white;
+}
+tr:nth-child(even){background-color: #f2f2f2;}

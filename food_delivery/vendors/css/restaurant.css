@@ -1,0 +1,28 @@
+header{
+    background-image:-webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 0.7)),to(rgba(0, 0, 0, 0.7))),url(images/hero2-min.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)),url(images/hero2-min.jpg);
+    background-size: cover;
+    background-position: right bottom;
+    height: 40vh;
+    background-attachment: fixed;
+}
+
+.rightn{
+   position: absolute;
+    top:55px;
+     left:1100px; 
+}
+
+.btn1 { 
+  border: none;
+  cursor: pointer; 
+  position:relative;
+  float: centre;
+  background-color: inherit;
+  color: white;
+  padding: 5px 5px;
+  text-align: right;
+  
+  display: inline-block;
+  font-size: 20px;
+}
